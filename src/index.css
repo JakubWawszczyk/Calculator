@@ -1,0 +1,14 @@
+:root {
+  --number-buttons-color: #f0f0f0;
+  --number-buttons-color-hover: #e7e7e7;
+  --operation-buttons-color: #a2a2a2;
+  --operation-buttons-color-hover: #8d8d8d;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}

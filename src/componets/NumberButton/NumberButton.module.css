@@ -1,0 +1,17 @@
+.numberButtonLi {
+  width: 100%;
+  aspect-ratio: 1;
+}
+
+.numberButton {
+  width: 100%;
+  height: 100%;
+  background-color: var(--number-buttons-color);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.15rem;
+  transition: 0.1s;
+}
+.numberButton:hover {
+  background-color: var(--number-buttons-color-hover);
+}

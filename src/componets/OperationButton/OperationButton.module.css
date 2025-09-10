@@ -1,0 +1,17 @@
+.operationButtonLi {
+  width: 100%;
+  aspect-ratio: 1;
+}
+.operationButton {
+  width: 100%;
+  height: 100%;
+  background-color: var(--operation-buttons-color);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.15rem;
+  color: #fff;
+  transition: 0.1;
+}
+.operationButton:hover {
+  background-color: var(--operation-buttons-color-hover);
+}
