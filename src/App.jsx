@@ -28,10 +28,12 @@ function App() {
     setMathematicOperation([]);
     setAnswer(false);
   }
+  console.log(mathematicOperation);
+
   return (
     <div className={styles.container}>
       <div className={styles.displayBox}>
-        {!answer && <p>{mathematicOperation.join('')}</p>}
+        {answer === false ? <p>{mathematicOperation.join('')}</p> : null}
         {answer !== false && <p>{answer}</p>}
       </div>
       <div className={styles.buttons}>
